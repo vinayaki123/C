@@ -7,8 +7,8 @@
 #include<string.h>
 int anagram(char *s1,char *s2)
 {
-	int i;
-	int arr[26]={0};
+   int i;
+   int arr[26]={0};
   if(strlen(s1)!=strlen(s2))	
   	return 0;
   else
