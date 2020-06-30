@@ -10,10 +10,10 @@ int palindrom(char *s)
 	while(i<j)
 	{
 		if(s[i++]!=s[j--])
-     	{
+     	        {
 			return 0;
-	    }
-    } 
+	        }
+        } 
 	return 1;
 }
 void main()
